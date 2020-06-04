@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://waleedjunaid.io/Smart-Care/precache-manifest.7125921f1662de3cf442c6f4e39d8f17.js"
+  "https://waleedjunaid.github.io/Smart-Care/precache-manifest.2a118a69de9fc3bc490df284891f5fbb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://waleedjunaid.io/Smart-Care/index.html", {
+workbox.routing.registerNavigationRoute("https://waleedjunaid.github.io/Smart-Care/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
